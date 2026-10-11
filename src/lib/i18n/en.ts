@@ -1,0 +1,231 @@
+/**
+ * English is the source of truth. Every other language must provide the same keys, and the
+ * compiler and tests both check that. Use {name}-style placeholders for values.
+ */
+export const en = {
+  // Navigation
+  "nav.features": "Features",
+  "nav.how": "How It Works",
+  "nav.demo": "Explore Demo",
+  "nav.signIn": "Sign In",
+  "nav.getStarted": "Get Started Free",
+  "nav.dashboard": "Dashboard",
+  "nav.menu": "Open menu",
+  "nav.closeMenu": "Close menu",
+  "nav.language": "Language",
+  "nav.skip": "Skip to content",
+  "nav.main": "Main navigation",
+
+  // Hero
+  "hero.title": "Stop Guessing. Start Testing Your AI Prompts.",
+  "hero.subtitle":
+    "Compare AI prompts side by side, evaluate their performance against real test cases, and discover what works best — with measurable results, not guesswork.",
+  "hero.primary": "Get Started Free",
+  "hero.secondary": "Explore Interactive Demo",
+
+  // Interactive preview
+  "preview.title": "Prompt Lab preview",
+  "preview.note": "Simulated demo model. No API calls, no cost.",
+  "preview.promptA": "Prompt A",
+  "preview.promptB": "Prompt B",
+  "preview.run": "Run the demo",
+  "preview.running": "Running…",
+  "preview.reset": "Run again",
+  "preview.case": "Test case",
+  "preview.passed": "{count} of {total} passed",
+  "preview.winner": "Prompt {side} wins by {points} points",
+  "preview.tie": "Dead heat",
+  "preview.view3d": "View in 3D",
+  "preview.hide3d": "Hide 3D view",
+  "preview.openDemo": "Open the full demo",
+  "preview.waiting": "Waiting",
+  "preview.pass": "Pass",
+  "preview.fail": "Fail",
+
+  // Features
+  "features.title": "Everything you need to improve a prompt",
+  "features.intro": "Assay turns prompt tweaking into an experiment you can repeat.",
+  "f1.title": "Prompt A/B Testing",
+  "f1.body": "Compare two different AI prompts using identical test cases to discover which performs better.",
+  "f2.title": "Automated Evaluation",
+  "f2.body": "Evaluate AI responses using exact match, regex, JSON validation, and other supported scoring methods.",
+  "f3.title": "Performance Analytics",
+  "f3.body": "Understand pass rates, response latency, token usage where available, and estimated API costs.",
+  "f4.title": "Interactive Visualizations",
+  "f4.body": "Explore prompt performance using Assay's existing visual analytics and 3D components.",
+  "f5.title": "Experiment History",
+  "f5.body": "Save experiments, revisit previous comparisons, and track improvements.",
+  "f6.title": "Faster Prompt Engineering",
+  "f6.body": "Reduce repetitive manual testing and make prompt improvements using measurable evidence.",
+
+  // How it works
+  "how.title": "From idea to evidence in three steps",
+  "how.step": "Step {n}",
+  "how.s1.title": "Write Your Prompts",
+  "how.s1.body": "Create two versions of an AI prompt.",
+  "how.s2.title": "Run Your Tests",
+  "how.s2.body": "Evaluate both prompts against the same test cases.",
+  "how.s3.title": "Compare and Improve",
+  "how.s3.body": "Review results and optimize your prompts.",
+
+  // Final call to action
+  "cta.title": "Ready to Build Better AI Prompts?",
+  "cta.body": "Join Assay and turn prompt experimentation into a structured, measurable workflow.",
+  "cta.primary": "Create Free Account",
+  "cta.secondary": "Try Demo",
+
+  // Footer
+  "footer.tagline": "Test smarter prompts, save time, and improve AI performance.",
+  "footer.built": "Built with Next.js, Supabase and React Three Fiber.",
+
+  // Shared auth text
+  "auth.email": "Email",
+  "auth.password": "Password",
+  "auth.confirm": "Confirm password",
+  "auth.name": "Name",
+  "auth.show": "Show password",
+  "auth.hide": "Hide password",
+  "auth.or": "or",
+  "auth.google": "Continue with Google",
+  "auth.notConfigured":
+    "Sign-in is not set up on this server yet. Add the Supabase environment variables, or try the demo.",
+  "auth.home": "Back to home",
+
+  // Login
+  "login.title": "Welcome Back to Assay.",
+  "login.body": "Sign in to continue testing, comparing, and improving your AI prompts.",
+  "login.submit": "Sign in",
+  "login.submitting": "Signing in…",
+  "login.forgot": "Forgot password?",
+  "login.noAccount": "New to Assay?",
+  "login.signupLink": "Create a free account",
+  "login.callbackError": "That sign-in link did not work. Please try again.",
+
+  // Signup
+  "signup.title": "Start Building Better Prompts.",
+  "signup.body": "Create your free Assay account to compare AI prompts, save experiments, and track your progress.",
+  "signup.submit": "Create account",
+  "signup.submitting": "Creating account…",
+  "signup.haveAccount": "Already have an account?",
+  "signup.loginLink": "Sign in",
+  "signup.successTitle": "Check your email",
+  "signup.successBody": "We sent a confirmation link to {email}. Open it to finish creating your account.",
+  "signup.passwordHint": "Use at least 8 characters.",
+
+  // Forgot password
+  "forgot.title": "Reset your password",
+  "forgot.body": "Enter your email and we will send you a link to choose a new password.",
+  "forgot.submit": "Send reset link",
+  "forgot.sending": "Sending…",
+  "forgot.successTitle": "Check your email",
+  "forgot.successBody": "If an account exists for {email}, a reset link is on its way. It can take a minute to arrive.",
+  "forgot.back": "Back to sign in",
+
+  // Reset password
+  "reset.title": "Choose a new password",
+  "reset.body": "Pick a password you have not used before.",
+  "reset.password": "New password",
+  "reset.submit": "Update password",
+  "reset.updating": "Updating…",
+  "reset.successTitle": "Password updated",
+  "reset.successBody": "You are signed in with your new password.",
+  "reset.invalidTitle": "This reset link has expired",
+  "reset.invalidBody": "Reset links work once and expire quickly. Request a new one to continue.",
+  "reset.requestNew": "Request a new link",
+  "reset.checking": "Checking your link…",
+
+  // Form validation
+  "err.nameRequired": "Enter your name.",
+  "err.nameLong": "Names can be up to 60 characters.",
+  "err.emailRequired": "Enter your email.",
+  "err.emailInvalid": "Enter a valid email address.",
+  "err.passwordRequired": "Enter a password.",
+  "err.passwordShort": "Use at least 8 characters.",
+  "err.passwordLong": "That password is too long. Keep it under 72 bytes.",
+  "err.passwordMismatch": "The two passwords do not match.",
+
+  // Auth service errors
+  "authErr.invalidCredentials": "The email or password is not correct. Please try again.",
+  "authErr.emailNotConfirmed": "Confirm your email first. Open the link we sent you.",
+  "authErr.rateLimited": "Too many attempts. Wait a little while and try again.",
+  "authErr.weakPassword": "That password is too weak. Choose a longer or harder one.",
+  "authErr.sameAsOld": "The new password must be different from the old one.",
+  "authErr.sessionExpired": "Your session has ended. Please sign in again.",
+  "authErr.signupDisabled": "New accounts are not being created right now.",
+  "authErr.network": "We could not reach the server. Check your connection and try again.",
+  "authErr.generic": "Something went wrong. Please try again.",
+
+  // App navigation
+  "app.dashboard": "Dashboard",
+  "app.lab": "Prompt Lab",
+  "app.history": "History",
+  "app.account": "Account",
+  "app.signOut": "Sign out",
+
+  // Dashboard
+  "dash.welcome": "Welcome back, {name}",
+  "dash.subtitle": "Your AI prompt experiments, all in one place.",
+  "dash.total": "Total experiments",
+  "dash.completed": "Completed comparisons",
+  "dash.completedHint": "Every answer came back",
+  "dash.avgPass": "Average pass rate",
+  "dash.avgPassHint": "Across all prompts",
+  "dash.latest": "Most recent experiment",
+  "dash.noneYet": "None yet",
+  "dash.recent": "Recent experiments",
+  "dash.colName": "Experiment",
+  "dash.colDate": "Date",
+  "dash.colA": "Prompt A",
+  "dash.colB": "Prompt B",
+  "dash.colStatus": "Result",
+  "dash.view": "View details",
+  "dash.statusA": "Prompt A won",
+  "dash.statusB": "Prompt B won",
+  "dash.statusTie": "Tie",
+  "dash.statusIncomplete": "Some calls failed",
+  "dash.quick": "Quick actions",
+  "dash.qaNew": "New experiment",
+  "dash.qaLab": "Open Prompt Lab",
+  "dash.qaHistory": "View history",
+  "dash.qaDemo": "Explore demo",
+  "dash.emptyTitle": "Your Prompt Engineering Journey Starts Here.",
+  "dash.emptyBody": "Run your first comparison to discover which AI prompt performs better.",
+  "dash.emptyCta": "Start First Experiment",
+  "dash.errorTitle": "We could not load your experiments",
+  "dash.errorBody": "Check your connection and try again.",
+  "dash.retry": "Try again",
+  "dash.latestOf": "Based on your latest {count} experiments.",
+
+  // Account
+  "acct.title": "Account",
+  "acct.subtitle": "Manage your account details.",
+  "acct.name": "Display name",
+  "acct.email": "Email",
+  "acct.language": "Preferred language",
+  "acct.since": "Member since",
+  "acct.save": "Save changes",
+  "acct.saving": "Saving…",
+  "acct.saved": "Changes saved.",
+  "acct.saveError": "We could not save your changes. Please try again.",
+  "acct.emailNote": "Your email is used to sign in and cannot be changed here.",
+  "acct.password": "Change password",
+  "acct.newPassword": "New password",
+  "acct.updatePassword": "Update password",
+  "acct.passwordUpdated": "Password updated.",
+  "acct.signOut": "Sign out",
+
+  // Importing runs saved in the browser before accounts existed
+  "legacy.title": "Import experiments saved in this browser",
+  "legacy.body": "We found {count} experiments from before accounts existed. Import them into your account to keep them.",
+  "legacy.button": "Import {count} experiments",
+  "legacy.busy": "Importing…",
+  "legacy.done": "Imported {count} experiments.",
+  "legacy.failed": "{count} could not be imported.",
+
+  // Demo page
+  "demo.title": "Explore the demo",
+  "demo.body": "Compare two prompts with a simulated model. Nothing is saved and no paid API calls are made.",
+  "demo.ctaTitle": "Want to run real models?",
+  "demo.ctaBody": "Create a free account to run real models and keep your history.",
+  "demo.ctaButton": "Create Free Account",
+} as const;
